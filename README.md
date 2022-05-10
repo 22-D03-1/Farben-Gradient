@@ -39,7 +39,7 @@
   - **linear Gradient**
     <img src="./assets/liniarGrad.jpeg" width= 100px height=100px>
 
-          -  linear-gradient(cto left , yellow, 60% );
+          -  linear-gradient(to left , yellow, 60% );
 
   - **conic Gradient**
     <img src="./assets/conic-gradient23.png" width= 100px height=100px>
