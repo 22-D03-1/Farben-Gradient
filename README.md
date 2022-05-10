@@ -4,11 +4,11 @@
 
 # In CSS können **_farben_** auf verschiedene wege definiert werden
 
-- color Name
-  - CSS unterstützt 140 Standardfarbnamen.
-- mit RGB werte.
+- mit color Wert
 
--       - blue, lightskyblue, usw.
+  - CSS unterstützt 140 Standardfarbnamen.
+
+- mit RGB werte.
   - **rgb( RED , GREEN , BLUE )**. Jeder Parameter definiert die Intensität der Farbe als ganze Zahl zwischen 0 und 255.
 - hexadecimal Wert
   - **#RRGGBB**.RR (Rot), GG (Grün) und BB (Blau) sind hexadezimale Ganzzahlen zwischen 00 und FF, die die Intensität der Farbe angeben.Beispielsweise wird # 0000FF blau angezeigt, da die blaue Komponente auf ihren höchsten Wert (FF) gesetzt ist und die anderen auf 00 gesetzt sind.
@@ -49,7 +49,7 @@
 
   - **repeat linear/radial Gradient**
     <img src="./assets/repeatGradient%20.png" width= 150px height=100px>
-    <img src="./assets/liniarGRadR.png" width= 100px height=100px>
+    <img src="./assets/liniarGRadR.png" width= 150px height=100px>
 
          .gradient1{repeating-linear-gradient(to right, yellow 10px, #009966, purple 50px;}
          .gradient2{repeating-radial-gradient(circle, yellow 10px, #009966, purple 50px);}
