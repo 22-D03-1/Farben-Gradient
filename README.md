@@ -7,6 +7,7 @@
 - color Name
   - CSS unterstützt 140 Standardfarbnamen.
 - mit RGB werte.
+
 -       - blue, lightskyblue, usw.
   - **rgb( RED , GREEN , BLUE )**. Jeder Parameter definiert die Intensität der Farbe als ganze Zahl zwischen 0 und 255.
 - hexadecimal Wert
@@ -50,8 +51,8 @@
     <img src="./assets/repeatGradient%20.png" width= 150px height=100px>
     <img src="./assets/liniarGRadR.png" width= 100px height=100px>
 
-    -     .gradient1{repeating-linear-gradient(to right, yellow 10px, #009966, purple 50px;}
-    -     .gradient2{repeating-radial-gradient(circle, yellow 10px, #009966, purple 50px);}
+         .gradient1{repeating-linear-gradient(to right, yellow 10px, #009966, purple 50px;}
+         .gradient2{repeating-radial-gradient(circle, yellow 10px, #009966, purple 50px);}
 
 - Ein Gradient oder Verlauf ist eine gedachte Linie, auf der Farbunterbrechungen (Color Stops) liegen. Im einfachsten Fall gibt es zwei Farbunterbrechungen in einem Verlauf. An jedem Color Stop beginnt eine Farbe, die bis zum nächsten Color Stop in die andere Farbe verläuft.
 -       - background-image: linear-gradient(to top, white 0%, black 50%)
